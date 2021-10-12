@@ -1,8 +1,12 @@
 .bajo{
-    width: 500px;
+    width: 450px;
+    height: 450px;
+    margin-left: 20px;
+    border-radius: 50%; 
 }
 
 .me{
     text-decoration-line: underline;
     grid-area: me;  
+    font-family: 'Roboto', sans-serif;  
   }

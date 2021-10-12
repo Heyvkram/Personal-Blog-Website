@@ -1,35 +1,51 @@
 .header{
-    font-size: 100px;
-    color: whitesmoke;
+    font-size: 50px;
+    color: black;
     text-decoration-line: underline;  
     text-align: center;
     margin: 100px;
     grid-area: head;
-    
 }
 
 .post{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     grid-area: post;
 }
 
 .postimg{
-    width: 50%;    
+    width: 50%; 
+    border-radius: 3%;
+    margin: 30px;   
 }
 
-p{
+.post-text{
     margin: 70px;
-    font-size: 50px;
-    color: whitesmoke;
+    font-size: 30px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .blogbutton{      
-    font-size: 30px;
-    color: blue;    
-    grid-area: bt;
-} 
+    font-size: 18px;
+   margin-left:  95px;
+   margin-top: 15px;
+   margin-bottom: 15px; 
+   background-color: #51A0D5;
+   font-family: 'Roboto', sans-serif;   
+   border-radius: 3%;
+   padding: 5px 5px 5px 5px;
+   color:white;
+   font-weight: 400;
+   margin-right: 92px;
+   text-decoration: none;
+}
+
+.blogbutton:hover{
+    background-color: #78C5EF;
+}
 
 .about {
     grid-area: info;
@@ -37,29 +53,41 @@ p{
     color: #a52a2a;   
     width: fit-content;    
     margin: 20px 30px;  
-    grid-area: about;          
+    grid-area: about; 
+    margin: 60px;
+    background-color: #a3d6f1;
+    border-radius: 3%;         
 }
   
 .author{
     display: flex;
     align-items: center;
-    padding-left: 20px;
-}
-
-li{
-    color:whitesmoke;
+    padding-left: 20px;    
 }
   
 .author-info {
     margin: 8px 0;
     padding-left: 0;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.more{
+    text-decoration: none;
+    color: #51A0D5;
+    font-family: 'Roboto', sans-serif; 
+    text-decoration: underline;
+}
+
+.more:hover{
+    color: gray;
 }
   
 .avatar {
     width: 150px;    
 }
 
-h3{
+.author-name{
     text-align: center;
 }
 
