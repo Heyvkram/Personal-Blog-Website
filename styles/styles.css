@@ -1,37 +1,39 @@
-h1{
-    color: whitesmoke;
+.hd{
+    color:black;
     text-align: center;
-    font-size: 80px;
+    font-size: 50px;
     grid-area: hd;
+    font-family: 'Roboto', sans-serif;
 }
 
-h2{
+.subtitle{
     margin: 30px;
     font-size: 30px;
-    color: whitesmoke;
+    color: black;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
-.navBar {
-    font-size: 30px;
-    text-align: right;
+.navBar{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif; 
     grid-area: nav;
 }
 
-a{
-    color: yellowgreen;   
+.nav-tab{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.nav-tab:hover{
+    color: #51A0D5;
+    text-decoration: underline;
 }
 
 .image{
     width: 300px;
     height: 330px;
-}
-
-body{
-    background: url(../images/bcn4.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    text-shadow: 2px 2px 4px black;
 }
 
 .blogPostCards{
@@ -44,14 +46,27 @@ body{
     display: flex;
     flex-direction: column;
     margin: 50px;
+    background-color: #d7d7d7;
+    border-radius: 3%;
 }
 
 .button{
-   font-size: 30px;
-   margin: 30px;
-   margin-left: 50px;
-   text-align: center;
-   color: blue;
+   font-size: 18px;
+   margin-left:  95px;
+   margin-top: 15px;
+   margin-bottom: 15px; 
+   background-color: #51A0D5;
+   font-family: 'Roboto', sans-serif;   
+   border-radius: 3%;
+   padding: 5px 5px 5px 5px;
+   color:white;
+   font-weight: 400;
+   margin-right: 92px;
+   text-decoration: none;
+}
+
+.button:hover{
+    background-color: #78C5EF;
 }
 
 .socialSharing{
