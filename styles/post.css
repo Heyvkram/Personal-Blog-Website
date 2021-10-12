@@ -1,0 +1,71 @@
+.header{
+    font-size: 100px;
+    color: whitesmoke;
+    text-decoration-line: underline;  
+    text-align: center;
+    margin: 100px;
+    grid-area: head;
+    
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: post;
+}
+
+.postimg{
+    width: 50%;    
+}
+
+p{
+    margin: 70px;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.blogbutton{      
+    font-size: 30px;
+    color: blue;    
+    grid-area: bt;
+} 
+
+.about {
+    grid-area: info;
+    display: flex;    
+    color: #a52a2a;   
+    width: fit-content;    
+    margin: 20px 30px;  
+    grid-area: about;          
+}
+  
+.author{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+li{
+    color:whitesmoke;
+}
+  
+.author-info {
+    margin: 8px 0;
+    padding-left: 0;
+}
+  
+.avatar {
+    width: 150px;    
+}
+
+h3{
+    text-align: center;
+}
+
+.logo{
+    width: 50px;
+    margin: 20px;
+}
+
+ 

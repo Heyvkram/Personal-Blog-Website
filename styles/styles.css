@@ -1,0 +1,67 @@
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 80px;
+    grid-area: hd;
+}
+
+h2{
+    margin: 30px;
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.navBar {
+    font-size: 30px;
+    text-align: right;
+    grid-area: nav;
+}
+
+a{
+    color: yellowgreen;   
+}
+
+.image{
+    width: 300px;
+    height: 330px;
+}
+
+body{
+    background: url(../images/bcn4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-shadow: 2px 2px 4px black;
+}
+
+.blogPostCards{
+    display: flex;
+    justify-content: center;
+    grid-area: main;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.button{
+   font-size: 30px;
+   margin: 30px;
+   margin-left: 50px;
+   text-align: center;
+   color: blue;
+}
+
+.socialSharing{
+    display: flex;
+    justify-content: center;
+    grid-area: soc;      
+}
+
+.footer{
+    color: yellowgreen;
+    text-align: center;
+    grid-area: ft;
+}

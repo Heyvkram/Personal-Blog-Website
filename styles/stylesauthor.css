@@ -1,0 +1,8 @@
+.bajo{
+    width: 500px;
+}
+
+.me{
+    text-decoration-line: underline;
+    grid-area: me;  
+  }
