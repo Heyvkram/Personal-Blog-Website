@@ -74,9 +74,10 @@
 
 .more{
     text-decoration: none;
-    color: #51A0D5;
+    color: #2C528C;
     font-family: 'Roboto', sans-serif; 
     text-decoration: underline;
+    font-weight: 400;
 }
 
 .more:hover{
