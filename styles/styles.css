@@ -1,4 +1,4 @@
-.hd{
+.hd {
     color:black;
     text-align: center;
     font-size: 50px;
@@ -6,7 +6,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.subtitle{
+.subtitle {
     margin: 30px;
     font-size: 30px;
     color: black;
@@ -14,37 +14,37 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar{
+.navbar {
     font-size: 25px;
     font-family: 'Roboto', sans-serif; 
     grid-area: nav;
 }
 
-.nav-tab{
+.nav-tab {
     text-decoration: none;
     color: black;
     font-family: 'Roboto', sans-serif; 
 }
 
-.nav-tab:hover{
+.nav-tab:hover {
     color: #51A0D5;
     text-decoration: underline;
 }
 
-.image{
+.image {
     width: 300px;
     height: 300px;
     margin: auto;
     border-radius: 50%;    
 }
 
-.blogpostcards{
+.blogpostcards {
     display: flex;
     justify-content: center;
     grid-area: main;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     margin: 50px;
@@ -52,7 +52,7 @@
     border-radius: 3%;
 }
 
-.button{
+.button {
    font-size: 18px;
    margin-left:  95px;
    margin-top: 15px;
@@ -67,19 +67,18 @@
    text-decoration: none;
 }
 
-.button:hover{
+.button:hover {
     background-color: #78C5EF;
 }
 
-.socialsharing{
+.socialsharing {
     display: flex;
     justify-content: center;
     grid-area: soc;      
 }
 
-.footer{
+.footer {
     color: yellowgreen;
     text-align: center;
     grid-area: ft;
 }
-

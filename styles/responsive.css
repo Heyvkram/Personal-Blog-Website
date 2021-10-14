@@ -1,5 +1,5 @@
-@media(min-width:1px) and (max-width:600px){
-    .container{
+@media(min-width:1px) and (max-width:600px) {
+    .container {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -11,7 +11,7 @@
         "ft";        
     }
 
-    .postcontainer{
+    .postcontainer {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -25,7 +25,7 @@
         "ft";        
     }    
 
-    .aboutme{
+    .aboutme {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -39,26 +39,34 @@
         "ft";        
     }    
 
-    .navbar{
+    .navbar {
         align-items: center;
         margin: auto;
     }
 
-    .blogpostcards{
+    .blogpostcards {
         display:flex;
         flex-direction: column;
         margin: auto;        
     }
 
-    .post{
+    .post {
         display: flex;
         flex-direction: column;
         align-items: center;        
     }
+    .postimg {
+        margin: auto;
+        width: 100%;
+    }
+    .foto {
+        margin: auto;
+        width: 100%;
+    }
 }
 
-@media(min-width:600px) and (max-width:1100px){
-    .container{
+@media(min-width:600px) and (max-width:1500px) {
+    .container {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -70,7 +78,7 @@
         "ft";        
     }
 
-    .postcontainer{
+    .postcontainer {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -84,7 +92,7 @@
         "ft";        
     }    
 
-    .aboutme{
+    .aboutme {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -98,20 +106,30 @@
         "ft";        
     }    
 
-    .navbar{
+    .navbar {
         align-items: center;
         margin: auto;
     }
 
-    .blogpostcards{
+    .blogpostcards {
         display:flex;
         flex-direction: column;
         margin: auto;            
     }
 
-    .post{
+    .post {
         display: flex;
         flex-direction: column;
         align-items: center;        
+    }
+
+    .postimg {
+        margin: auto;
+        width: 100%;
+    }
+
+    .foto {
+        margin: auto;
+        width: 100%;
     }
 }

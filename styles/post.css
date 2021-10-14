@@ -1,4 +1,4 @@
-.header{
+.header {
     font-size: 50px;
     color: black;
     text-decoration-line: underline;  
@@ -7,28 +7,37 @@
     grid-area: head;
 }
 
-.post{
+.post {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center;    
     grid-area: post;
 }
 
-.postimg{
-    width: 50%; 
-    border-radius: 3%;
-    margin: 30px;   
+.postimg {  
+    border-radius: 3%;      
+    background-color: #51A0D5;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 3px;
+    text-align: center;
+    margin: auto;
+    width: 100%; 
 }
 
-.post-text{
+.foto {
+    border-radius: 3%;     
+    object-fit: fill; 
+}
+
+.post-text {
     margin: 70px;
     font-size: 30px;
     color: black;
-    font-family: 'Roboto', sans-serif;
-
+    font-family: 'Roboto', sans-serif;    
 }
 
-.blogbutton{      
+.blogbutton {      
     font-size: 18px;
    margin-left:  95px;
    margin-top: 15px;
@@ -43,7 +52,7 @@
    text-decoration: none;
 }
 
-.blogbutton:hover{
+.blogbutton:hover {
     background-color: #78C5EF;
 }
 
@@ -59,7 +68,7 @@
     border-radius: 3%;         
 }
   
-.author{
+.author {
     display: flex;
     align-items: center;
     padding-left: 20px;    
@@ -72,7 +81,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.more{
+.more {
     text-decoration: none;
     color: #2C528C;
     font-family: 'Roboto', sans-serif; 
@@ -80,7 +89,7 @@
     font-weight: 400;
 }
 
-.more:hover{
+.more:hover {
     color: gray;
 }
   
@@ -88,13 +97,11 @@
     width: 150px;    
 }
 
-.author-name{
+.author-name {
     text-align: center;
 }
 
-.logo{
+.logo {
     width: 50px;
     margin: 20px;
-}
-
- 
+} 
